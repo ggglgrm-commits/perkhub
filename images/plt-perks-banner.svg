@@ -1,0 +1,6 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="640" height="200" rx="24" fill="#050816"/>
+<rect x="6" y="6" width="628" height="188" rx="20" fill="#111827" stroke="#FF4FA3" stroke-width="1.5" stroke-dasharray="4 6"/>
+<text x="50%" y="42%" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="700" letter-spacing="4" fill="#F9FAFB">PRETTYLITTLETHING</text>
+<text x="50%" y="65%" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500" letter-spacing="3" fill="#FF4FA3">DISCOVER TRENDS WITH PERKHUB</text>
+</svg>

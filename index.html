@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Perkhub x PrettyLittleThing Rewards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Perkhub showcases independent partner rewards for PrettyLittleThing in a secure, SSL-verified environment."
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo-mark img-logo">
+          <img src="images/perkhub-logo.svg" alt="Perkhub logo" />
+        </div>
+        <div class="logo-text">
+          <div class="brand-name">Perkhub</div>
+          <div class="brand-tagline">Smart Deals. Real Rewards.</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="ssl-badge">
+          <span class="dot"></span>
+          <span class="ssl-main">SSL Verified</span>
+          <span class="ssl-sub">Secure &amp; encrypted page</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- DISCLAIMER -->
+    <section class="disclaimer">
+      <p>
+        Perkhub is an independent third-party rewards platform. We are not directly
+        connected to PrettyLittleThing. All rewards shown here are powered by
+        external advertising and rewards partners.
+      </p>
+    </section>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>PrettyLittleThing Rewards by Perkhub</h1>
+          <p class="hero-subtitle">
+            Explore partner-powered perks for PrettyLittleThing in one clean, anonymous,
+            and secure rewards page. No calls, no addresses, no identity display.
+          </p>
+
+          <ul class="hero-points">
+            <li>Anonymous usage – we do not show names or locations.</li>
+            <li>Secure access through trusted external partners only.</li>
+            <li>Minimal, distraction-free layout focused on the reward.</li>
+          </ul>
+
+          <div class="live-counter">
+            Live right now:
+            <span id="live-count">184</span>
+            <span>viewers</span>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="hero-image">
+            <img src="images/safe-banner.png" alt="PrettyLittleThing exclusive perks visual" />
+          </div>
+          <a
+            href="https://uplevelrewarded.com/aff_c?offer_id=345&aff_id=158779"
+            class="voucher-card blink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="voucher-label">Partner Reward Highlight</div>
+            <div class="voucher-brand">PrettyLittleThing</div>
+            <div class="voucher-title">Exclusive Online Reward</div>
+            <p class="voucher-copy">
+              View the current PrettyLittleThing reward details, availability and
+              instructions on our partner's secure page.
+            </p>
+            <div class="voucher-cta">View Reward Details</div>
+            <div class="voucher-footnote">No personal calls or addresses required.</div>
+          </a>
+          <p class="voucher-note">
+            This page does not sell any products directly. It only showcases the
+            available reward link from our partner.
+          </p>
+        </div>
+      </section>
+
+      <!-- HOW TO USE -->
+      <section class="section" id="how-to-use">
+        <h2>How This Reward Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-body">
+              <h3>Open the partner reward page</h3>
+              <p>
+                Click “View Reward Details” to open the secure external partner page
+                in a new tab. This is where the actual reward flow is handled.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-body">
+              <h3>Submit required details on the partner side</h3>
+              <p>
+                Complete only the steps requested on the partner page. Perkhub does
+                not ask for or store your name, phone number, or location on this
+                site.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-body">
+              <h3>Wait for confirmation</h3>
+              <p>
+                After you submit the required information, simply wait while the
+                partner verifies your steps. Processing time can vary.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-body">
+              <h3>Access your PrettyLittleThing perk</h3>
+              <p>
+                Once the partner confirms eligibility, you will receive access to
+                the active reward according to their terms. Your identity is never
+                displayed on this page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIVE ACTIVITY -->
+      <section class="section live-activity">
+        <h2>Live Activity (Display Only)</h2>
+        <p class="section-intro">
+          These live tiles are for visual activity only and do not show any user
+          identity or location.
+        </p>
+        <div class="live-tiles" id="live-tiles">
+          <!-- Filled by JavaScript -->
+        </div>
+      </section>
+
+      <!-- REVIEWS DISPLAY -->
+      <section class="section" id="reviews">
+        <h2>Live User Reviews (Anonymous)</h2>
+        <p class="section-intro">
+          We only display fair, verified, and anonymous reviews. Names and places
+          are never highlighted.
+        </p>
+
+        <div id="review-list" class="review-list">
+          <!-- Initial reviews are injected with JavaScript -->
+        </div>
+
+        <form id="review-form" class="review-form">
+          <h3>Share your experience</h3>
+          <label class="rating-label">Your rating:</label>
+          <div class="stars" id="star-picker">
+            <!-- Stars generated in JS -->
+          </div>
+          <input type="hidden" name="rating" id="rating-input" value="5" />
+
+          <label for="review-text" class="textarea-label">Your review (optional text):</label>
+          <textarea
+            id="review-text"
+            maxlength="400"
+            placeholder="Write a short, honest review about your experience with this reward flow."
+          ></textarea>
+
+          <button type="submit" class="submit-review">Submit Review</button>
+          <div id="review-message" class="review-message" aria-live="polite"></div>
+          <p class="review-disclaimer">
+            Low-quality or irrelevant reviews may remain hidden. We keep all
+            feedback anonymous and do not display any names or locations.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">Perkhub</div>
+        <div class="footer-tagline">Independent third-party rewards showcase.</div>
+      </div>
+      <div class="footer-legal">
+        PrettyLittleThing is a trademark of its respective owner. Perkhub is not
+        directly affiliated, endorsed, or sponsored by PrettyLittleThing. All
+        rewards are subject to change or removal by our external partners at any time.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
